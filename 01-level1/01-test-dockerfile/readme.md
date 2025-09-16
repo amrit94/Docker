@@ -8,7 +8,11 @@ docker run --name test1 ap/dockerfile:hi
 # Hello World... from my first docker image
 ```
 
-Remove the image
+Cleanup
 ```
+# Remove container
+docker rm test1
+
+# Remove the image
 docker rmi -f <id>
 ```
