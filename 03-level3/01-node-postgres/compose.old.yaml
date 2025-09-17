@@ -1,0 +1,13 @@
+name: ecom
+
+services:
+    postgresdb:
+        image: "postgres:alpine"
+        container_name: "postgres"
+        environment:
+            POSTGRES_USER: myuser
+            POSTGRES_PASSWORD: password
+            POSTGRES_DB: mydatabase
+        ports:
+        - "5431:5432"
+        

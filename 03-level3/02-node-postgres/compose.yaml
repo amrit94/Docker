@@ -1,0 +1,23 @@
+name: ecom
+
+services:
+    backendserver:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: "backend"
+        ports:
+            - "3000:3000"
+    postgresdb:
+        image: "postgres:alpine"
+        container_name: "postgres"
+        environment:
+            POSTGRES_USER: myuser
+            POSTGRES_PASSWORD: password
+            POSTGRES_DB: mydatabase
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+
+# Added external volume for postgres data persistence
+volumes:
+    postgres_data:

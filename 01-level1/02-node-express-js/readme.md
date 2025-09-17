@@ -16,7 +16,7 @@ npm install express
 node index.js
 ```
 
-### 02. On Docker
+## 02. On Docker
 Manually - remove node_modules folder
 
 ```

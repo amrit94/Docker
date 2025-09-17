@@ -1,0 +1,25 @@
+{
+  "name": "04",
+  "version": "1.0.0",
+  "description": "- Using `ubuntu` base image - this will result in bigger image size - Install any nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/pg": "^8.15.5",
+    "@types/redis": "^4.0.10",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "redis": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

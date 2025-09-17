@@ -17,7 +17,7 @@ node index.js
 npm start
 ```
 
-### 02. On Docker
+## 02. On Docker
 Manually - remove node_modules folder
 
 ```
