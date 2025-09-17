@@ -1,4 +1,7 @@
 # Test Expess on Local and Docker
+- Using `node:slim` base image
+- Has pre-install node
+
 https://www.youtube.com/watch?v=DQJNtDm5qy0
 
 ## 01. On Local PC

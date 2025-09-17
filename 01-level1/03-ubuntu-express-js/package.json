@@ -1,0 +1,15 @@
+{
+  "name": "03",
+  "version": "1.0.0",
+  "description": "- Using `ubuntu` base image - Install any nodejs -",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
